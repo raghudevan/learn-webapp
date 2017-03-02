@@ -8,7 +8,7 @@
 * The code editor is essentially where all the magic happens, i prefer to use [SublimeText](https://www.sublimetext.com/)
     - It free to use (i highly recommend buying a copy for yourself)
     - It is lightweight
-    - It has got a log of plugin support
+    - It has got a log of plugin support (cntrl + shift + p)
 
 * Talking about plugins, the plugins listed below are the ones that I think are absolutely essential
     - side bar plugin (so that you can browse files and open them from the side bar)
@@ -32,7 +32,7 @@
     - `npm` [node package manager](https://www.npmjs.com/)
 
 
-# NodeJS - [installation doc](docs/Installation.md)
+# NodeJS - [installation doc](https://github.com/raghudevan/learn-webapp/blob/master/docs/node/Installation.md)
 * To be able to use `npm` we're going to have to install `node`
     - when we transpile our code, it will in the context of `node`
     - when we make our backend services, they will run in the context of `node`
