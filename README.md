@@ -12,11 +12,11 @@
 
 
 ## Language of choice
-* We're going to be using javascript extensively for both the front-end and the back-end
+* We're going to be using javascript for the development of both the UI and the back-end services
     - One language to rule them all
     - In my opinion, it's the easiest to pick up and build with
 * The [MDN(Mozilla Developer Network)](https://developer.mozilla.org/en-US/) is going to be our best friend in this entire process; it's got documentation to answer every question you will ever have about javascript
 
 
 ## NodeJS
-* This software/tool will help us host our apps on a server. [NodeJS](https://github.com/raghudevan/learn-webapp/blob/master/docs/node/Installation.md) is basically a javascript runtime that can run outside a browser!
+* This software/tool will help us host our apps. [NodeJS](https://github.com/raghudevan/learn-webapp/blob/master/docs/node/Installation.md) is basically a javascript runtime that can run outside a browser!
