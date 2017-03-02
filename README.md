@@ -32,7 +32,7 @@
     - `npm` [node package manager](https://www.npmjs.com/)
 
 
-# NodeJS - [installation documentation](documentation/Installation.md)
+# NodeJS - [installation documentation](Installation.md)
 * To be able to use `npm` we're going to have to install `node`
     - when we transpile our code, it will in the context of `node`
     - when we make our backend services, they will run in the context of `node`
