@@ -4,7 +4,7 @@
 # Pre-requisites, what to install and more!
 
 ## SCM(source code management) AKA versioning
-* So you'll need something to version your code. [Git](https://github.com/raghudevan/learn-webapp/blob/master/docs/git/installation.md) is the best!
+* So you'll need something to version your code. [Git](https://github.com/raghudevan/learn-webapp/blob/master/docs/git/installation.md) is the best! (only option IMO)
 
 
 ## Code editor of choice

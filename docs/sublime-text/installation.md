@@ -11,6 +11,7 @@
 * The plugins listed below are the ones that I think are absolutely essential
     - SideBarEnhancements (so that you can browse files and open them from the side bar)
     - babel-sublime-master (helps with syntax highlighting)
+    - emmet-sublime plugin (helps with auto completing html tags)
 
 * To install a plugin
     1. ctrl + shift + p
