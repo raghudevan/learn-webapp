@@ -8,7 +8,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Link to="/">Home</Link>
+        <Link className="btn btn-success m-10" to="/">Home</Link>
         <br/>
         {this.props.children}
       </div>

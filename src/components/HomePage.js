@@ -12,11 +12,19 @@ class HomePage extends React.Component {
         this.props.incrementCounter();
     }
 
+    makeCall = () => {
+      this.props.makeCall("https://dev.ird.mu-sigma.com/phoenix/git-books/info", {
+        method: "GET"
+      }, 'GET_INFO');
+    }
+
     render() {
       return (
         <div>
-          <h2>Hello World!!</h2>
-          <button onClick={this.onClick}>increment counter</button> { this.props.counter }
+          <blockquote><p>Hello Learners!</p><footer>raghu</footer></blockquote>
+          <button className="btn btn-primary m-10" onClick={this.onClick}>Increment Counter - sync action</button> { this.props.counter }
+          <br/>
+          <button className="btn btn-info m-10" onClick={this.makeCall}>Make Call - async action</button> <strong>{ JSON.stringify(this.props.info) }</strong>
         </div>
       );
     }
@@ -24,13 +32,15 @@ class HomePage extends React.Component {
 
 function mapStateToProps(state, ownProps) {
     return {
-        counter: state.homePage.counter
+        counter: state.homePage.counter,
+        info: state.homePage.info
     };
 }
 
 function mapDispatchToProps(dispatch) {
     return {
-        incrementCounter: bindActionCreators(homePageActions.incrementCounter, dispatch)
+        incrementCounter: bindActionCreators(homePageActions.incrementCounter, dispatch),
+        makeCall: bindActionCreators(homePageActions.makeCall, dispatch)
     };
 }
 
