@@ -2,6 +2,8 @@
 
 ## Windows
 * Go to [https://nodejs.org/en/download/](https://nodejs.org/en/download/), grab the correct installer and install it into your machine
+	
+	> On windows, run node-5.11.0
 
 ## Linux
 * You can use `nvm` to install `node`, from your terminal just run the following
