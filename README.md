@@ -22,12 +22,13 @@
 * This software/tool will help us host our apps. [NodeJS](https://github.com/raghudevan/learn-webapp/blob/master/docs/node/Installation.md) is basically a javascript runtime that can run outside a browser!
 
 ## Official styling partner - Bootstrap
-* Again - simple, easy to use! Go [here](http://getbootstrap.com/css) for the style guide
+* Again - simple, easy to use for styling otherwise bland html pages! Go [here](http://getbootstrap.com/css) for the style guide
 
 > You do not have to do anything for the installation of Bootstrap, i've already included it in this repository
 
 
 # Getting started
+* Once you've taken care of the required installations, you're ready to start building an app!
 
 1. Clone this repository
 
@@ -35,7 +36,7 @@
     git clone https://github.com/raghudevan/learn-webapp.git
     ```
 
-    > Fun fact: clone is git terminology for making a local copy of the project for yourself
+    > Fun fact: **clone** is git terminology for making a local copy of the project for yourself
 
     > This will make a directory **learn-webapp** in the the directory where you run this command
 
