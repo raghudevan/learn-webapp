@@ -19,7 +19,7 @@
 
 
 ## NodeJS
-* This software/tool will help us host our apps. [NodeJS](https://github.com/raghudevan/learn-webapp/blob/master/docs/node/Installation.md) is basically a javascript runtime that can run outside a browser!
+* This software/tool will help us host our apps. [NodeJS](https://github.com/raghudevan/learn-webapp/blob/master/docs/node/installation.md) is basically a javascript runtime that can run outside a browser!
 
 ## Official styling partner - Bootstrap
 * Again - simple, easy to use for styling otherwise bland html pages! Go [here](http://getbootstrap.com/css) for the style guide
