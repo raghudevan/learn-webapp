@@ -20,3 +20,26 @@
 
 ## NodeJS
 * This software/tool will help us host our apps. [NodeJS](https://github.com/raghudevan/learn-webapp/blob/master/docs/node/Installation.md) is basically a javascript runtime that can run outside a browser!
+
+
+# Getting started
+
+1. Clone this repository
+
+    ```
+    git clone https://github.com/raghudevan/learn-webapp.git
+    ```
+
+    > This will make a directory **learn-webapp** in the the directory where you run this command
+
+2. Get into the directory and install the dependencies
+
+    ```
+    npm install
+    ```
+
+3. Once the installation finishes, start the application
+
+    ```
+    npm start
+    ```

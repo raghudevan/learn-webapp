@@ -9,22 +9,17 @@ import * as homePageActions from '../actions/home-page';
 class HomePage extends React.Component {
 
     onClick = () => {
-        console.log('123');
         this.props.incrementCounter();
     }
 
     render() {
       return (
         <div>
-          <h2>Hello World!!123</h2>
+          <h2>Hello World!!</h2>
           <button onClick={this.onClick}>increment counter</button> { this.props.counter }
         </div>
       );
     }
-}
-
-if(module.hot) {
-    module.hot.accept();
 }
 
 function mapStateToProps(state, ownProps) {
