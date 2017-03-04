@@ -10,6 +10,9 @@ function add(a, b) {
     return a + b;
 }
 
+// another way to define functions
+let logMessage = (...message) => console.log.apply(null, message)
+
 /**
  * A class is like a blueprint,
  * when instantiated - we get access to its methods
@@ -40,17 +43,17 @@ var arrayOfNumbers = [ 1, 2, 3, 4, 5 ];
 var arrayOfStrings = [ "name", "age", "occupation" ];
 var arrayOfObjects = [ { name: "raghu", age: 25 }, { name: "devan", age: 26 } ];
 
-console.log('number', number);
-console.log('string', string);
-console.log('object', object);
-console.log('array of numbers', arrayOfNumbers);
-console.log('array of strings', arrayOfStrings);
-console.log('array of objects', arrayOfObjects);
+logMessage('number', number);
+logMessage('string', string);
+logMessage('object', object);
+logMessage('array of numbers', arrayOfNumbers);
+logMessage('array of strings', arrayOfStrings);
+logMessage('array of objects', arrayOfObjects);
 
 // this is how a function is invoked
 var result = add(1, 3);
-console.log('result', result);
+logMessage('result', result);
 
 // this is how a class is instantiated
 var person = new Person({ name: "raghu", age: 25 });
-console.log('person details:', person.getName(), "|", person.getAge());
+logMessage('person details:', person.getName(), "|", person.getAge());
