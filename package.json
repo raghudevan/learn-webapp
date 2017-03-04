@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "nodemon --exec babel-node quick-test.js --watch quick-test.js",
     "start": "cross-env NODE_ENV=development babel-node ./tools/start-dev-server.js"
   },
   "author": "",
@@ -31,6 +32,7 @@
     "file-loader": "^0.10.1",
     "html-webpack-plugin": "^2.28.0",
     "json-loader": "^0.5.4",
+    "nodemon": "^1.11.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-redux": "^5.0.3",

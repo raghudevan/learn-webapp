@@ -4,16 +4,14 @@ import { Link } from 'react-router';
 // This is a class-based component because the current
 // version of hot reloading won't hot reload a stateless
 // component at the top-level.
-class App extends React.Component {
-  render() {
-    return (
-      <div>
-        <Link className="btn btn-success m-10" to="/">Home</Link>
-        <br/>
-        {this.props.children}
-      </div>
-    );
-  }
+function App(props) {
+  return (
+    <div>
+      <Link className="btn btn-success m-10" to="/">Home</Link>
+      <br/>
+      {props.children}
+    </div>
+  )
 }
 
 App.propTypes = {
