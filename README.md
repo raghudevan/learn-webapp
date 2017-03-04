@@ -30,6 +30,8 @@
 # Getting started
 * Once you've taken care of the required installations, you're ready to start building an app!
 
+0. We're going to be using a package called **redux** to manage our application's model. There's a neat [plugin](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en) for chrome that helps with visualizing the model.
+
 1. Clone this repository
 
     ```
