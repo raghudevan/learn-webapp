@@ -57,3 +57,6 @@
     ```
 
     > You'll see a notification on the terminal when the app is ready
+
+# Some fun APIs to play with
+* [reddit thread](https://www.reddit.com/r/webdev/comments/3wrswc/what_are_some_fun_apis_to_play_with/)
