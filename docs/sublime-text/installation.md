@@ -13,6 +13,8 @@
     - babel-sublime-master (helps with syntax highlighting)
     - emmet-sublime plugin (helps with auto completing html tags)
 
+* Before you can install plugins, you'll need to install Package Control; follow the instructions [here](https://packagecontrol.io/installation)
+
 * To install a plugin
     1. ctrl + shift + p
     2. type in "Package Control: Install Package"
