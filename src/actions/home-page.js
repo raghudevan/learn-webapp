@@ -1,6 +1,7 @@
 export function incrementCounter() {
     return {
-        type: "INCREMENT_COUNTER"
+        type: "INCREMENT_COUNTER",
+        payload: 1
     };
 }
 

@@ -8,7 +8,7 @@ export default function reducer(state = initialState, action) {
     switch(action.type) {
         case "INCREMENT_COUNTER":
         {
-            newState = Object.assign({}, state, { counter: state.counter + 1 });
+            newState = Object.assign({}, state, { counter: state.counter + action.payload });
             break;
         }
         case "GET_INFO_SUCCESS":
