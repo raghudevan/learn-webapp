@@ -8,7 +8,6 @@ function App(props) {
   return (
     <div>
       <Link className="btn btn-success m-10" to="/">Home</Link>
-      <Link className="btn btn-success m-10" to="/actions">Actions</Link>
       <br/>
       {props.children}
     </div>

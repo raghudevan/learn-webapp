@@ -4,9 +4,9 @@ import { Link } from 'react-router';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-import * as homePageActions from '../actions/home-page';
+import * as actionPageActions from 'ACTIONS/action-page';
 
-class HomePage extends React.Component {
+class ActionPage extends React.Component {
 
     onClick = () => {
         this.props.incrementCounter();
@@ -32,16 +32,16 @@ class HomePage extends React.Component {
 
 function mapStateToProps(state, ownProps) {
     return {
-        counter: state.homePage.counter,
-        info: state.homePage.info
+        counter: state.actionPage.counter,
+        info: state.actionPage.info
     };
 }
 
 function mapDispatchToProps(dispatch) {
     return {
-        incrementCounter: bindActionCreators(homePageActions.incrementCounter, dispatch),
-        makeCall: bindActionCreators(homePageActions.makeCall, dispatch)
+        incrementCounter: bindActionCreators(actionPageActions.incrementCounter, dispatch),
+        makeCall: bindActionCreators(actionPageActions.makeCall, dispatch)
     };
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(HomePage);
+export default connect(mapStateToProps, mapDispatchToProps)(ActionPage);

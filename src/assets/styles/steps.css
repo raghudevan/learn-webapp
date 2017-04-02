@@ -1,0 +1,39 @@
+.step-container {
+    margin: 1px 20px 10px 20px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.step-container:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.9);
+}
+
+.step-header {
+    height: 50px;
+    background-color: rgb(72, 133, 237);
+    padding: 5px;
+}
+
+.step-header > p {
+    color: white;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.image-desc {
+    display: flex
+}
+
+.image-desc > div {
+    width: 30%;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.step-image {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    min-height: 550px;
+    max-height: 550px;
+    overflow: auto;
+    object-fit: contain;
+}

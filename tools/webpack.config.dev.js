@@ -4,7 +4,14 @@ import path from 'path';
 
 export default {
   resolve: {
-    extensions: ['*', '.js', '.jsx', '.json']
+    extensions: ['*', '.js', '.jsx', '.json'],
+    alias: {
+      "CORECOMPS": path.resolve(__dirname, "../src/components/core-components/"),
+      "COMPS": path.resolve(__dirname, "../src/components/"),
+      "ACTIONS": path.resolve(__dirname, "../src/actions/"),
+      "STYLES": path.resolve(__dirname, "../src/assets/styles/"),
+      "IMAGES": path.resolve(__dirname, "../src/assets/images/")
+    }
   },
   devtool: 'cheap-module-eval-source-map', // more info:https://webpack.github.io/docs/build-performance.html#sourcemaps and https://webpack.github.io/docs/configuration.html#devtool
   entry: [
