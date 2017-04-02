@@ -4,7 +4,7 @@
 # Pre-requisites, what to install and more!
 
 ## SCM(source code management) AKA versioning
-* So you'll need something to version your code. [Git](https://github.com/raghudevan/learn-webapp/blob/master/docs/git/installation.md) is the best! (only option IMO)
+* So you'll need something to version your code. Git is the best! (only option IMO). [Go here](https://github.com/raghudevan/learn-webapp/blob/master/docs/git/installation.md) for instructions on how to install git
 
 
 ## Code editor of choice
@@ -19,10 +19,10 @@
 
 
 ## NodeJS
-* This software/tool will help us host our apps. [NodeJS](https://github.com/raghudevan/learn-webapp/blob/master/docs/node/installation.md) is basically a javascript runtime that can run outside a browser!
+* This software/tool will help us host our apps. NodeJS is basically a javascript runtime that can run outside a browser! [Go here](https://github.com/raghudevan/learn-webapp/blob/master/docs/node/installation.md) for instructions on how you can install NodeJS on your machine
 
 ## Official styling partner - Bootstrap
-* Again - simple, easy to use for styling otherwise bland html pages! Go [here](http://getbootstrap.com/css) for the style guide
+* Again - simple, easy to use for styling otherwise bland html pages! [Go here](http://getbootstrap.com/css) for the style guide
 
 > You do not have to do anything for the installation of Bootstrap, i've already included it in this repository
 
