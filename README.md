@@ -60,3 +60,23 @@
 
 # Some fun APIs to play with
 * [reddit thread](https://www.reddit.com/r/webdev/comments/3wrswc/what_are_some_fun_apis_to_play_with/)
+
+
+# Running the app in production
+**There are two npm scripts to help you get your app running in production**
+
+1. First, you build the `dist/` assets
+
+    ```
+    npm run build
+    ```
+
+    > This will create `bundle.js`, `index.html` inside a folder named `dist/` inside your project directory
+
+2. Then you run the production app server
+
+    ```
+    npm run up-prod
+    ```
+
+    > This will run an express app server on port **3001** and host your `index.html`
