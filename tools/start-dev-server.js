@@ -26,8 +26,9 @@ const middleware = webpackDevMiddleware(bundler, {
 });
 
 let app = express();
+let PORT = 3000;
 
-app.listen(3000, (err) => {
+app.listen(PORT, (err) => {
     if(err) {
         console.log(chalkError(err));
         return;
@@ -37,5 +38,5 @@ app.listen(3000, (err) => {
     app.use(historyApiFallback());
     app.use(middleware);
     app.use(webpackHotMiddleware(bundler));
-    console.log(chalkSuccess.bold('Started server on http://localhost:3000'));
+    console.log(chalkSuccess.bold(`Started server on http://localhost:${PORT}`));
 });
